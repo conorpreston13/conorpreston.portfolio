@@ -10,6 +10,17 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import CardGroup from 'react-bootstrap/CardGroup'
 import ListGroup from 'react-bootstrap/ListGroup'
+import cat from './cat.png'
+import four from './404.png'
+import contact from './contact.png'
+import email from './email.png'
+import git from './github.png'
+import laptop from './laptop.png'
+import pic from './LEARN_Aug_2019_Conor1.jpg'
+import linked from './linkedIn.png'
+import person from './person.png'
+import tools from './tools.png'
+import turntable from './turntable.png'
 
 
 
@@ -40,7 +51,7 @@ class App extends React.Component {
                 <Row>
                   <Col>
                     <h1 bsPrefix = 'welcome'>Conor Preston</h1><br/>
-                    <Image height = '300px' src="/LEARN_Aug_2019_Conor1.jpg" rounded />
+                    <Image height = '300px' src={pic} rounded />
                   </Col>
                   </Row>
                 </Container>
@@ -49,7 +60,7 @@ class App extends React.Component {
               <Jumbotron>
                 <Container>
                 <h2 id = 'about'>About me</h2><br/>
-                <Image src="/person.png" height="100px" /><br/><br/><br/>
+                <Image src={person} height="100px" /><br/><br/><br/>
                   <p>Passionate about technology and the idea of constant learning, my career focus is dedicated to the technology community. Hello, my name is Conor Preston. LEARN Academy is a San Diego based development bootcamp that has provided me with 480+ hours on hands-on development experience in solo, pair and mob-programming. With four years of professional experience in logistics, procurement, service and customer service, I have gained skills that can be directly used in the technology community.
                   </p>
                     
@@ -59,7 +70,7 @@ class App extends React.Component {
               <Jumbotron>
                <Container>
                  <h2 id = 'skills'>Skills</h2><br/>
-                 <Image height = '100px' src = 'tools.png' /><br/><br/><br/>
+                 <Image height = '100px' src = {tools} /><br/><br/><br/>
                  
                  <Row>
                   <Col>
@@ -85,11 +96,11 @@ class App extends React.Component {
               <Jumbotron>
                  <Container>
                    <h2 id = 'projects'>Projects</h2><br/>
-                    <Image height = '150px' src = '/laptop.png' /><br/><br/>
+                    <Image height = '150px' src = {laptop} /><br/><br/>
                   
                   <CardGroup>
                     <Card style={{ width: '18rem' }} bg='dark'>
-                      <Card.Img variant="top" src="/turntable.png"/>
+                      <Card.Img variant="top" src= {turntable}/>
                       <Card.Body>
                         <Card.Title>Vinyl Tracker</Card.Title>
                         <Card.Text>
@@ -100,7 +111,7 @@ class App extends React.Component {
                     </Card>
                     
                     <Card style={{ width: '18rem' }} bg='dark'>
-                      <Card.Img variant="top" src="/cat.png" />
+                      <Card.Img variant="top" src= { cat } />
                       <Card.Body>
                         <Card.Title>Cat Tinder</Card.Title>
                         <Card.Text>
@@ -113,7 +124,7 @@ class App extends React.Component {
                     </Card> 
                     
                     <Card style={{ width: '18rem' }} bg='dark'>
-                      <Card.Img variant="top" src="/404.png" />
+                      <Card.Img variant="top" src= { four } />
                       <Card.Body>
                         <Card.Title>Get Down</Card.Title>
                         <Card.Text>
@@ -129,24 +140,24 @@ class App extends React.Component {
             
               <Jumbotron>
                 <h2 id = 'contact'>Get in Touch</h2><br/>
-                <Image height = '100px' src = '/contact.png' /><br/><br/><br/><br/>
+                <Image height = '100px' src = {contact} /><br/><br/><br/><br/>
                 <Container>
                 
                 <Row>
                 <Col>
-                <Image height = '80px' src = '/email.svg' />
+                <Image height = '80px' src = { email } />
                   <p>preston386@gmail.com</p>
                   
                   </Col>
                   <Col>
                     <a href = 'https://www.linkedin.com/' target = '_blank' rel = 'noopener noreferrer'>
-                      <Image height = '80px' src='/linkedIn.png' onclick = 'https://www.linkedin.com/conorpreston'  rounded />
+                      <Image height = '80px' src={linked} onclick = 'https://www.linkedin.com/conorpreston'  rounded />
                     </a>
                     <p>/conorpreston</p>
                     </Col>
                     <Col>
                       <a href = 'https://www.github.com/conorpreston13' target = '_blank' rel = 'noopener noreferrer'>
-                      <Image height = '80px' src='/github.png' rounded />
+                      <Image height = '80px' src={git} rounded />
                       </a>
                       <p>/conorpreston13</p>
                     </Col>

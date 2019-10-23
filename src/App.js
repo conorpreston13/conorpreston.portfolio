@@ -106,7 +106,9 @@ class App extends React.Component {
                         <Card.Text>
                           This is a project using a Rails API that was communicated with via Postman.
                         </Card.Text>
-                        <Button variant="dark">View Vinyl Tracker Code</Button>
+                        <a href = "https://github.com/conorpreston13/vinyl_tracker_backend" target ="_blank" rel ="noopener noreferrer">
+                          <Button variant="dark" onclick="https://github.com/conorpreston13/vinyl_tracker_backend">View Vinyl Tracker Code</Button>
+                        </a>
                       </Card.Body>
                     </Card>
                     
@@ -130,7 +132,9 @@ class App extends React.Component {
                         <Card.Text>
                           Here is a group project that was built with React-in-Rails. This is an app for on-demand gatherings with friends or other nearby parties.
                         </Card.Text>
-                        <Button variant="dark">View Get Down Code</Button>
+                        <a href = "https://github.com/conorpreston13/Get-Down" target ="_blank" rel ="noopener noreferrer">
+                          <Button variant="dark" onclick="https://github.com/conorpreston13/Get-Down">View Get Down Code</Button>
+                        </a>
                       </Card.Body>
                     </Card>
                     

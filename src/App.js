@@ -21,6 +21,7 @@ import linked from './linkedIn.png'
 import person from './person.png'
 import tools from './tools.png'
 import turntable from './turntable.png'
+import resume from './resume.pdf'
 
 
 
@@ -39,7 +40,7 @@ class App extends React.Component {
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
-              <Nav.Link href='/conor_preston_resume.pdf'  target = '_blank' rel = 'noopener noreferrer'>Resume</Nav.Link>
+              <Nav.Link href= {resume}  target = '_blank' rel = 'noopener noreferrer'>Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

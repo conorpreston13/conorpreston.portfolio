@@ -76,9 +76,9 @@ class App extends React.Component {
                   <Col>
                   <ListGroup>
                     <ListGroup.Item>Programming Languages:<br/>Javascript || Ruby || HTML || CSS</ListGroup.Item>
-                    <ListGroup.Item>Frameworks & Libraries:<br/> React || Rails || Bootstrap</ListGroup.Item>
-                    <ListGroup.Item>Applications:<br/>Git/Github || AWS || Postman</ListGroup.Item>
-                    <ListGroup.Item>Test Suites:<br/>RSpec || Enzyme || Jest</ListGroup.Item>
+                    <ListGroup.Item>Frameworks & Libraries:<br/> React || Rails || React-Native || Node || Express || Angular</ListGroup.Item>
+                    <ListGroup.Item>Applications:<br/>Git/Github || AWS || Postman || Sourcetree</ListGroup.Item>
+                    <ListGroup.Item>Databases:<br/>PostgreSQL || MongoDB</ListGroup.Item>
                   </ListGroup>
                   </Col>
                   <Col>
